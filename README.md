@@ -4,9 +4,6 @@ Dashboard and data provider for your record label
 
 ## Prerequisites (if you want to use vagrant box)
 
-* Ruby 2.2.0p0
-* Rails 4.2.0
-
 ### Virtualbox
 
 ```bash
@@ -39,12 +36,12 @@ git clone git@bitbucket.org:dperic/moonode.git ~/dev/moonode
 ```bash
 cd ~/dev/moonode
 vagrant up
-vagrant ssh
 ```
 
 ### Install/Setup
 
 ```bash
+vagrant ssh
 bundle
 ```
 
