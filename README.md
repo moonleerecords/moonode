@@ -45,6 +45,8 @@ vagrant ssh
 bundle
 ```
 
+# TODO: rake db etc
+
 ### Run
 
 ```bash
