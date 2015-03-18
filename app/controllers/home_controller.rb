@@ -10,4 +10,3 @@ class MembersController < ApplicationController
     'index'
   end
 end
-

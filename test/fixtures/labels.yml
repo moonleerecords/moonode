@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user_id: 
+  name: Moonlee Records
+  country: Slovenia
+  city: Ljubljana
+  founded: 2004
+  website: http://www.moonleerecords.com
+
+two:
+  user_id: 
+  name: KAPA Records
+  country: Slovenia
+  city: Ljubljana
+  founded: 1998
+  website: http://www.kaparecords.com/
