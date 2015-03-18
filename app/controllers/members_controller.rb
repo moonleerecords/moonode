@@ -1,9 +1,9 @@
-class MembersController < InheritedResources::Base
+class MembersController < ApplicationController
 
   private
 
-    def member_params
-      params.require(:member).permit(:name)
-    end
+  def permitted_params
+    params.require(:member).permit(:name)
+  end
 end
 
