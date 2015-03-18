@@ -6,6 +6,8 @@ class HomeController < ApplicationController
   # TODO: current_user
   # TODO: user_session
 
+  # TODO: fix this
+
   def index
     'index'
   end
