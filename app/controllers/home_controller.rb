@@ -1,4 +1,4 @@
-class MembersController < ApplicationController
+class HomeController < ApplicationController
 
   # TODO: login helpers
   # TODO: before_action :authenticate_user!
