@@ -25,8 +25,6 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
-gem 'activeadmin', github: 'activeadmin'
-
 gem 'devise'
 
 group :development, :test do
@@ -51,4 +49,3 @@ group :development, :test do
 
   # TODO: set up this stuff
 end
-
