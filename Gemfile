@@ -48,5 +48,7 @@ group :development, :test do
   gem 'pry-rails'
 
   gem 'quiet_assets'
+
+  # TODO: set up this stuff
 end
 
