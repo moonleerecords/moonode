@@ -3,6 +3,7 @@ class Admin::UserController < AdminController
     @user = User.find(params[:id])
   end
 
+
   #in your view
 #   <%= @user.name %>
 #

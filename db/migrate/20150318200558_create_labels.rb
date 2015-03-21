@@ -5,7 +5,7 @@ class CreateLabels < ActiveRecord::Migration
       t.string :name
       t.string :country
       t.string :city
-      t.string :founded
+      t.integer :founded
       t.string :website
 
       t.timestamps null: false

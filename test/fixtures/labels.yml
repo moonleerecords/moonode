@@ -1,7 +1,7 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  user_id: 
+  user_id: 1
   name: Moonlee Records
   country: Slovenia
   city: Ljubljana
@@ -9,7 +9,7 @@ one:
   website: http://www.moonleerecords.com
 
 two:
-  user_id: 
+  user_id: 1
   name: KAPA Records
   country: Slovenia
   city: Ljubljana

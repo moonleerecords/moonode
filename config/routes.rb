@@ -1,6 +1,4 @@
 Rails.application.routes.draw do
-  resources :labels
-
   root 'home#index'
 
   devise_for :users
@@ -9,6 +7,10 @@ Rails.application.routes.draw do
     # root to: redirect('/admin/bikes')
 
     resources :members
+
+    resources :artists
+
+    resources :labels
   end
 
   # The priority is based upon order of creation: first created -> highest priority.
