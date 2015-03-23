@@ -1,0 +1,12 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  linkable_id: 1
+  linkable_type: label
+  type: facebook
+  url: https://www.facebook.com/moonleerecords
+
+two:
+  linkable_id: 1
+  linkable_type: label
+  type: https://twitter.com/moonleerecords
