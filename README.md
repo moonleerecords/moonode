@@ -1,56 +1,72 @@
 # Moonode
 
-Dashboard and data provider for your record label
+Dashboard and data provider for your record label (in early development stage)
 
-## Prerequisites (if you want to use vagrant box)
+## Setup
 
-### Virtualbox
+### Prerequisites (if you want to use vagrant box)
 
-```bash
-sudo add-apt-repository "deb http://download.virtualbox.org/virtualbox/debian trusty contrib"
-wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | sudo apt-key add -
-sudo apt-get update
-sudo apt-get install -y virtualbox-4.3 dkms
-```
-
-### vagrant
+#### Virtualbox
 
 ```bash
-sudo apt-get install vagrant
+$ sudo add-apt-repository "deb http://download.virtualbox.org/virtualbox/debian trusty contrib"
+$ wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | sudo apt-key add -
+$ sudo apt-get update
+$ sudo apt-get install -y virtualbox-4.3 dkms
 ```
 
-## Install and run
+#### Vagrant
+
+```bash
+$ sudo apt-get install vagrant
+```
+
+### Install and run
 
 Dev environment in the examples below is in `/home/username/dev`, so if you have it different, just be sure to change paths.
 
 We use slightly modified [rails-dev-box](https://github.com/rails/rails-dev-box) vagrant box as an development VM - check documentation there if you have any concerns.
 
-### Clone project
+#### Clone project
 
 ```bash
-git clone git@bitbucket.org:dperic/moonode.git ~/dev/moonode
+$ git clone git@bitbucket.org:dperic/moonode.git ~/dev/moonode
 ```
 
-### Run vagrant (first time it takes a bit longer)
+#### Run vagrant (first time it takes a bit longer)
 
 ```bash
-cd ~/dev/moonode
-vagrant up
+$ cd ~/dev/moonode
+$ vagrant up
+$ vagrant ssh
 ```
 
-### Install/Setup
+#### Install/Setup
 
 ```bash
-vagrant ssh
-bundle
+$ bundle
+$ rake db:migrate
 ```
 
-# TODO: rake db etc
-
-### Run
+#### Run
 
 ```bash
-bin/rails server -b 0.0.0.0
+$ bin/rails server -b 0.0.0.0
 ```
 
 Your app will be available at http://localhost:3000
+
+#### Tests
+
+```bash
+$ rake db:migrate RAILS_ENV=test
+$ rake test
+```
+
+# TODO
+
+* check http://www.rubyonrails365.com/7-must-have-gems-to-install-on-any-project/?utm_content=bufferf9e5b&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer
+* views cleanup
+* clear coffescripts
+* use https://github.com/norman/friendly_id, https://github.com/origammi/koba/blob/master/app/models/bike.rb
+* default values - for example - actively playing

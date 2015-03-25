@@ -2,7 +2,7 @@
 
 <p>
   <strong>Label:</strong>
-  <%= @artist.Label %>
+  <%= @artist.label %>
 </p>
 
 <p>
@@ -43,6 +43,11 @@
 <p>
   <strong>Booking:</strong>
   <%= @artist.booking %>
+</p>
+
+<p>
+  <strong>Image:</strong>
+  <%= image_tag attachment_url(@artist, :image, :fill, 300, 300, format: "jpg") %>
 </p>
 
 <%= link_to 'Edit', edit_artist_path(@artist) %> |

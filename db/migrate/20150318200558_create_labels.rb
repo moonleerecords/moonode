@@ -7,6 +7,7 @@ class CreateLabels < ActiveRecord::Migration
       t.string :city
       t.integer :founded
       t.string :website
+      t.integer :artists_count
 
       t.timestamps null: false
     end

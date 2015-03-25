@@ -1,7 +1,7 @@
 class CreateArtists < ActiveRecord::Migration
   def change
     create_table :artists do |t|
-      t.references :Label, index: true
+      t.references :label, index: true
       t.text :name
       t.text :description
       t.string :country
@@ -10,9 +10,10 @@ class CreateArtists < ActiveRecord::Migration
       t.integer :formed
       t.boolean :active
       t.boolean :booking
+      t.integer :members_count
 
       t.timestamps null: false
     end
-    add_foreign_key :artists, :Labels
+    add_foreign_key :artists, :labels
   end
 end

@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   devise_for :users
 
   namespace :admin do
-    # root to: redirect('/admin/bikes')
+    # root to: redirect('/admin')
 
     resources :members
 
@@ -12,8 +12,7 @@ Rails.application.routes.draw do
 
     resources :labels
 
-    resources :artist_members
-
+    resources :documents
   end
 
   # The priority is based upon order of creation: first created -> highest priority.

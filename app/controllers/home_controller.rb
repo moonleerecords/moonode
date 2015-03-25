@@ -8,6 +8,8 @@ class HomeController < ApplicationController
 
   # TODO: fix this
 
+
+
   def index
     'index'
   end
