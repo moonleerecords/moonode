@@ -1,5 +1,6 @@
 class Member < ActiveRecord::Base
-  has_and_belongs_to_many :artists, counter_cache: true
+  has_many :artist_members
+  has_many :artists, through: :artist_members
 
   validates :name, presence: true
 end

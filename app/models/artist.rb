@@ -1,7 +1,8 @@
 class Artist < ActiveRecord::Base
   belongs_to :label, counter_cache: true
   has_many :external_links, as: :linkable
-  has_and_belongs_to_many :members
+  has_many :artist_members
+  has_many :members, through: :artist_members
 
   attachment :image
 

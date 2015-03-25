@@ -1,0 +1,19 @@
+one:
+  Artist_id: 1
+  Member_id: 1
+  role: Bass guitar
+
+two:
+  Artist_id: 1
+  Member_id: 2
+  role: Vocal
+
+three:
+  Artist_id: 1
+  Member_id: 3
+  role: Guitar
+
+four:
+  Artist_id: 1
+  Member_id: 4
+  role: Drums
