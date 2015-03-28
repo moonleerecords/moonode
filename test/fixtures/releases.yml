@@ -1,0 +1,20 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: Carbon Based
+  catalogNumber: HMRL001
+  artist_id: 1
+  releaseDate: 2004-11-15
+  description: In the case of ANALENA, one man’s hardcore is another man’s noise is another man’s punk. Diverse but steady, from bittersweet melodies and blistering hooks to pummeling and aggressive rhythms, ANALENA covers all the bases. Carbon Based is their’s second album, recorded and produced at Kozmo studio, Zagreb, by the members of the band themselves, with the noteworthy assistance provided by members of Lunar, another remarkable and friendly band from Zagreb. Carbon Based is a statement by a smart and mature band, an honest expression of determination and passion in full force. ANALENA follows its own instinct by merging charming melodies with intricate and shimmering rhythmic relentlessness. Stunning and flawless instrumentation combined with witty and poetic slogan-free lyrics takes care of the rest. See you in the pit or see you with your headphones on. You are invited. Until then, as the band itself proclaims in the moving Work In Progress: “Stay alert!”
+  tracklist: Tracklist:
+             1. Carbon Based Organisms
+             2. Dream Amplifiers
+             3. Work In Progress
+             4. Wiederholungszwang
+             5. Notturno
+             6. Spilt Milk
+             7. In Theory And Practice
+             8. From Automatic To Manual
+             9. Ropewalk Adventures
+             10. Rainy Night In Warsaw
+  bandcampAlbumId: 1343652965

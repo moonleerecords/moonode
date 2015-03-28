@@ -3,6 +3,7 @@ class CreateReleases < ActiveRecord::Migration
     create_table :releases do |t|
       t.string :title
       t.string :catalogNumber
+      t.references :artist, index: true
       t.date :releaseDate
       t.text :description
       t.text :tracklist
@@ -10,5 +11,6 @@ class CreateReleases < ActiveRecord::Migration
 
       t.timestamps null: false
     end
+    add_foreign_key :releases, :artists
   end
 end

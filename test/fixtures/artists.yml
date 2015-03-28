@@ -1,7 +1,7 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  Label_id: 1
+  label_id: 1
   name: Analena
   description: Fear not – the flame of independence burns on! Playing through your speakers, ANALENA’s new record, intriguingly titled Inconstantinopolis , adds to its mighty blaze. A glowing celebration of DIY ethics. A messenger of action, independence and self-control in an age of corporations and all-encroaching social networks. A fixture on the map of the underground scene for over a decade, ANALENA is now even stronger and more determinedly persistent in its do-it-yourself activism. Remaining resistant to the pressures of consumerism, the band is still propelled by a creative DIY drive manifesting through the care for one’s own self, through managing concerts, through recording, releasing, promoting and distributing their music through their own Moonlee Records.
   country: Croatia
