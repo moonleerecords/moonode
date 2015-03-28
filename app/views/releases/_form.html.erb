@@ -38,6 +38,12 @@
   <div class="field">
     <%= f.label :coverArt %><br>
     <%= f.attachment_field :coverArt %>
+
+    <%= form.label :remote_coverArt, "Or specify URL" %>
+    <%= form.text_field :remote_coverArt %>
+
+    <%= form.check_box :remove_coverArt %>
+    <%= form.label :remove_coverArt %>
   </div>
   <div class="actions">
     <%= f.submit %>

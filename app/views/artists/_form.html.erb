@@ -48,7 +48,14 @@
     <%= f.check_box :booking %>
   </div>
   <div class="field">
+    <%= f.label :image %><br>
     <%= f.attachment_field :image %>
+
+    <%= form.label :remote_image, "Or specify URL" %>
+    <%= form.text_field :remote_image %>
+
+    <%= form.check_box :remove_image %>
+    <%= form.label :remove_image %>
   </div>
   <div class="actions">
     <%= f.submit %>

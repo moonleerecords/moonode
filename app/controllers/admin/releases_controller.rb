@@ -69,6 +69,6 @@ class Admin::ReleasesController < AdminController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def release_params
-      params.require(:release).permit(:title, :catalogNumber, :releaseDate, :description, :tracklist, :bandcampAlbumId, :coverArt)
+      params.require(:release).permit(:title, :catalogNumber, :releaseDate, :description, :tracklist, :bandcampAlbumId, :coverArt, :remove_coverArt, :remote_coverArt)
     end
 end
