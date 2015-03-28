@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @release.title %>
+</p>
+
+<p>
+  <strong>Catalognumber:</strong>
+  <%= @release.catalogNumber %>
+</p>
+
+<p>
+  <strong>releaseDate:</strong>
+  <%= @release.releaseDate %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @release.description %>
+</p>
+
+<p>
+  <strong>Tracklist:</strong>
+  <%= @release.tracklist %>
+</p>
+
+<p>
+  <strong>Bandcampalbumid:</strong>
+  <%= @release.bandcampAlbumId %>
+</p>
+
+<p>
+  <strong>Cover art:</strong>
+  <%= image_tag attachment_url(@release, :coverArt, :fill, 300, 300, format: "jpg") %>
+</p>
+
+<%= link_to 'Edit', edit_release_path(@release) %> |
+<%= link_to 'Back', releases_path %>

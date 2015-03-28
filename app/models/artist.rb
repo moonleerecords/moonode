@@ -3,8 +3,9 @@ class Artist < ActiveRecord::Base
   has_many :external_links, as: :linkable
   has_many :artist_members
   has_many :members, through: :artist_members
+  has_many :releases
 
-  attachment :image
+  attachment :image # TODO: more images with table in between
 
   validates :name, presence: true
 end

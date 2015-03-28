@@ -1,0 +1,45 @@
+<%= form_for(@release) do |f| %>
+  <% if @release.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@release.errors.count, "error") %> prohibited this release from being saved:</h2>
+
+      <ul>
+      <% @release.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :title %><br>
+    <%= f.text_field :title %>
+  </div>
+  <div class="field">
+    <%= f.label :catalogNumber %><br>
+    <%= f.text_field :catalogNumber %>
+  </div>
+  <div class="field">
+    <%= f.label :releaseDate %><br>
+    <%= f.date_select :releaseDate %>
+  </div>
+  <div class="field">
+    <%= f.label :description %><br>
+    <%= f.text_area :description %>
+  </div>
+  <div class="field">
+    <%= f.label :tracklist %><br>
+    <%= f.text_area :tracklist %>
+  </div>
+  <div class="field">
+    <%= f.label :bandcampAlbumId %><br>
+    <%= f.text_field :bandcampAlbumId %>
+  </div>
+  <div class="field">
+    <%= f.label :coverArt %><br>
+    <%= f.attachment_field :coverArt %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

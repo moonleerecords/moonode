@@ -6,13 +6,13 @@ Rails.application.routes.draw do
   namespace :admin do
     # root to: redirect('/admin')
 
-    resources :members
+    resources :labels
 
     resources :artists
 
-    resources :labels
+    resources :releases
 
-    resources :documents
+    resources :members
   end
 
   # The priority is based upon order of creation: first created -> highest priority.
