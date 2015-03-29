@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Release:</strong>
+  <%= @release_review.release %>
+</p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @release_review.title %>
+</p>
+
+<p>
+  <strong>Url:</strong>
+  <%= @release_review.url %>
+</p>
+
+<p>
+  <strong>Quotes:</strong>
+  <%= @release_review.quotes %>
+</p>
+
+<p>
+  <strong>Visible:</strong>
+  <%= @release_review.visible %>
+</p>
+
+<%= link_to 'Edit', edit_release_review_path(@release_review) %> |
+<%= link_to 'Back', release_reviews_path %>

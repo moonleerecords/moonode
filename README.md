@@ -54,7 +54,7 @@ $ rake db:migrate
 $ bin/rails server -b 0.0.0.0
 ```
 
-Your app will be available at http://localhost:3000
+Application will then be available at http://localhost:3000
 
 #### Tests
 
@@ -63,10 +63,16 @@ $ rake db:migrate RAILS_ENV=test
 $ rake test
 ```
 
+#### How to use
+
+TODO
+
 # TODO
 
 * check http://www.rubyonrails365.com/7-must-have-gems-to-install-on-any-project/?utm_content=bufferf9e5b&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer
 * views cleanup
 * clear coffescripts
-* use https://github.com/norman/friendly_id, https://github.com/origammi/koba/blob/master/app/models/bike.rb
+* use https://github.com/norman/friendly_id
 * default values - for example - actively playing
+* update forms - for example, to add a releaseType on release page
+* admin lte

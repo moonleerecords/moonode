@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  release_id: 1
+  title: Yellow is the New Pink
+  url: http://yellowisthenewpink.com/reviews_detail.php?idno=83&title=Analena&subtitle=carbon%20based
+  visible: true
+
+two:
+  release_id: 1
+  title: Aversionline.com
+  url: http://www.aversionline.com/reviews/2330/
+  visible: true

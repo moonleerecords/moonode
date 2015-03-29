@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Release Reviews</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Release</th>
+      <th>Title</th>
+      <th>Url</th>
+      <th>Quotes</th>
+      <th>Visible</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @release_reviews.each do |release_review| %>
+      <tr>
+        <td><%= release_review.release %></td>
+        <td><%= release_review.title %></td>
+        <td><%= release_review.url %></td>
+        <td><%= release_review.quotes %></td>
+        <td><%= release_review.visible %></td>
+        <td><%= link_to 'Show', release_review %></td>
+        <td><%= link_to 'Edit', edit_release_review_path(release_review) %></td>
+        <td><%= link_to 'Destroy', release_review, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Release review', new_release_review_path %>

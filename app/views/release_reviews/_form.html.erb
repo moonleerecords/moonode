@@ -1,0 +1,37 @@
+<%= form_for(@release_review) do |f| %>
+  <% if @release_review.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@release_review.errors.count, "error") %> prohibited this release_review from being saved:</h2>
+
+      <ul>
+      <% @release_review.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :release_id %><br>
+    <%= f.text_field :release_id %>
+  </div>
+  <div class="field">
+    <%= f.label :title %><br>
+    <%= f.text_field :title %>
+  </div>
+  <div class="field">
+    <%= f.label :url %><br>
+    <%= f.text_field :url %>
+  </div>
+  <div class="field">
+    <%= f.label :quotes %><br>
+    <%= f.text_area :quotes %>
+  </div>
+  <div class="field">
+    <%= f.label :visible %><br>
+    <%= f.check_box :visible %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
