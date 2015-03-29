@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  release_id: 1
+  format: CD
+
+two:
+  release_id: 1
+  format: 12"
+
+two:
+  release_id: 1
+  format: MC
