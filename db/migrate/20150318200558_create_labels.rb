@@ -3,7 +3,7 @@ class CreateLabels < ActiveRecord::Migration
     create_table :labels do |t|
       t.references :user, index: true
       t.string :name
-      t.string :country
+      t.string :countryCode
       t.string :city
       t.integer :founded
       t.string :website

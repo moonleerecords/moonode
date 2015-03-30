@@ -4,7 +4,7 @@ class CreateArtists < ActiveRecord::Migration
       t.references :label, index: true
       t.text :name
       t.text :description
-      t.string :country
+      t.string :countryCode
       t.string :city
       t.string :genre
       t.integer :formed

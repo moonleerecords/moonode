@@ -3,7 +3,7 @@
 one:
   user_id: 1
   name: Moonlee Records
-  country: Slovenia
+  countryCode: SI
   city: Ljubljana
   founded: 2004
   website: http://www.moonleerecords.com
@@ -11,7 +11,7 @@ one:
 two:
   user_id: 1
   name: KAPA Records
-  country: Slovenia
+  countryCode: SI
   city: Ljubljana
   founded: 1998
   website: http://www.kaparecords.com/

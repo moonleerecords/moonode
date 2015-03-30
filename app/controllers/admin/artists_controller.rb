@@ -69,6 +69,6 @@ class Admin::ArtistsController < AdminController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def artist_params
-      params.require(:artist).permit(:Label_id, :name, :description, :country, :city, :genre, :formed, :active, :booking, :image, :remove_image, :remote_image)
+      params.require(:artist).permit(:Label_id, :name, :description, :countryCode, :city, :genre, :formed, :active, :booking, :image, :remove_image, :remote_image)
     end
 end

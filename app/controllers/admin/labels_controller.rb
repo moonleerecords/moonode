@@ -69,6 +69,6 @@ class Admin::LabelsController < AdminController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def label_params
-      params.require(:label).permit(:user_id, :name, :country, :city, :founded, :website)
+      params.require(:label).permit(:user_id, :name, :countryCode, :city, :founded, :website)
     end
 end

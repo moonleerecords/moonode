@@ -7,5 +7,7 @@ class CreateVenues < ActiveRecord::Migration
 
       t.timestamps null: false
     end
+
+    # TODO: add foreign key
   end
 end

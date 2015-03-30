@@ -18,7 +18,7 @@ class LabelsControllerTest < ActionController::TestCase
 
   test "should create label" do
     assert_difference('Label.count') do
-      post :create, label: { city: @label.city, country: @label.country, founded: @label.founded, name: @label.name, user_id: @label.user_id, website: @label.website }
+      post :create, label: { city: @label.city, countryCode: @label.countryCode, founded: @label.founded, name: @label.name, user_id: @label.user_id, website: @label.website }
     end
 
     assert_redirected_to label_path(assigns(:label))
@@ -35,7 +35,7 @@ class LabelsControllerTest < ActionController::TestCase
   end
 
   test "should update label" do
-    patch :update, id: @label, label: { city: @label.city, country: @label.country, founded: @label.founded, name: @label.name, user_id: @label.user_id, website: @label.website }
+    patch :update, id: @label, label: { city: @label.city, countryCode: @label.countryCode, founded: @label.founded, name: @label.name, user_id: @label.user_id, website: @label.website }
     assert_redirected_to label_path(assigns(:label))
   end
 

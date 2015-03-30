@@ -1,4 +1,4 @@
-class ReleaseReviewsController < ApplicationController
+class Admin::ReleaseReviewsController < AdminController
   before_action :set_release_review, only: [:show, :edit, :update, :destroy]
 
   # GET /release_reviews

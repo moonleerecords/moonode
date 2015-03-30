@@ -1,4 +1,4 @@
-class VenuesController < ApplicationController
+class Admin::VenuesController < AdminController
   before_action :set_venue, only: [:show, :edit, :update, :destroy]
 
   # GET /venues
