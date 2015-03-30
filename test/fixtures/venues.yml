@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: Klub Gromka
+  city: Ljubljana
+  countryCode: SI
+
+two:
+  name: Gala Hala
+  city: Ljubljana
+  countryCode: SI
