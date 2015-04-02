@@ -1,0 +1,10 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  artist_id: 2
+  venue_id: 1
+  start: 2015-07-10 20:00:00
+  price: 5€
+  songkickUrl: https://www.songkick.com/concerts/22540003-repetitor-at-gala-hala
+  facebookUrl: https://www.facebook.com/events/721509497956643/
+  lastfmUrl: http://www.last.fm/event/4025721+Repetitor+at+Gala+Hala+on+12+March+2015

@@ -1,0 +1,49 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Artist:</strong>
+  <%= @event.artist %>
+</p>
+
+<p>
+  <strong>Venue:</strong>
+  <%= @event.venue %>
+</p>
+
+<p>
+  <strong>Start:</strong>
+  <%= @event.start %>
+</p>
+
+<p>
+  <strong>End:</strong>
+  <%= @event.end %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @event.price %>
+</p>
+
+<p>
+  <strong>Ticketurl:</strong>
+  <%= @event.ticketUrl %>
+</p>
+
+<p>
+  <strong>Songkickurl:</strong>
+  <%= @event.songkickUrl %>
+</p>
+
+<p>
+  <strong>Facebookurl:</strong>
+  <%= @event.facebookUrl %>
+</p>
+
+<p>
+  <strong>Lastfmurl:</strong>
+  <%= @event.lastfmUrl %>
+</p>
+
+<%= link_to 'Edit', edit_event_path(@event) %> |
+<%= link_to 'Back', events_path %>

@@ -4,6 +4,7 @@ class Artist < ActiveRecord::Base
   has_many :artist_members
   has_many :members, through: :artist_members
   has_many :releases
+  has_many :events
 
   attachment :image # TODO: more images with table in between
 
