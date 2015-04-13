@@ -63,9 +63,9 @@ $ rake db:migrate RAILS_ENV=test
 $ rake test
 ```
 
-#### How to use
+### Database structure
 
-TODO
+[Current database schema](https://raw.githubusercontent.com/moonleerecords/moonode/master/doc/database_schema.png)
 
 # TODO
 
