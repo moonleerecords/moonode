@@ -1,10 +1,4 @@
 Rails.application.routes.draw do
-  resources :events
-
-  resources :venues
-
-  resources :release_reviews
-
   root 'home#index'
 
   devise_for :users
@@ -19,6 +13,14 @@ Rails.application.routes.draw do
     resources :releases
 
     resources :members
+
+    resources :release_reviews
+
+    resources :venues
+
+    resources :events
+
+    resources :videos
   end
 
   # The priority is based upon order of creation: first created -> highest priority.

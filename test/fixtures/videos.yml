@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  artist_id: 1
+  service: youtube
+  videoId: rPNtekQ2ygs
+
+two:
+  artist_id: 2
+  service: youtube
+  videoId: 0KjdbAnipew
