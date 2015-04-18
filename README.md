@@ -30,7 +30,7 @@ We use slightly modified [rails-dev-box](https://github.com/rails/rails-dev-box)
 #### Clone project
 
 ```bash
-$ git clone git@bitbucket.org:dperic/moonode.git ~/dev/moonode
+$ git clone git@bitbucket.org:moonleerecords/moonode.git ~/dev/moonode
 ```
 
 #### Run vagrant (first time it takes a bit longer)
@@ -45,6 +45,7 @@ $ vagrant ssh
 
 ```bash
 $ bundle
+$ rake db:create
 $ rake db:migrate
 ```
 
